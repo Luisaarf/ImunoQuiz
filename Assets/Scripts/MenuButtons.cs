@@ -9,6 +9,26 @@ public class MenuButtons : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField] private string nameSceneToLoad;
+    [SerializeField] private Sprite volumeIcon;
+    [SerializeField] private Sprite muteIcon;
+    [SerializeField] private Button volumeButton;
+
+    void Start()
+    {
+        volumeButton.GetComponent<Image>().sprite = volumeIcon;
+    }
+    
+    public void ChangeButtonSprite()
+    {
+        if (volumeButton.GetComponent<Image>().sprite == volumeIcon)
+        {
+            volumeButton.GetComponent<Image>().sprite = muteIcon;
+        }
+        else
+        {
+            volumeButton.GetComponent<Image>().sprite = volumeIcon;
+        }
+    }
 
     public void GameNavigation()
     {
