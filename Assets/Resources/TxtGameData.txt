@@ -1,0 +1,44 @@
+{
+    "virus": {
+            "easy": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy" , "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ],
+            "medium": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ],
+            "hard": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy","AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ]
+    },
+    "Bacterias": {
+            "Easy": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ],
+            "medium": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ],
+            "hard": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ]
+    },
+    "Fungus": {
+            "Easy": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ],
+            "medium": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ],
+            "hard": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+            ]
+    }
+}

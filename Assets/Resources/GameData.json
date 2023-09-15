@@ -1,52 +1,44 @@
 {
-    "GameData": {
-        "Virus": {
-            "Difficulties": {
-                "Easy": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy" , "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ],
-                "Medium": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ],
-                "Hard": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy","AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ]
-            } 
-        },
-        "Bacterias": {
-            "Difficulties": {
-                "Easy": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ],
-                "Medium": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ],
-                "Hard": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ]
-            }
-        },
-        "Fungus": {
-            "Difficulties": {
-                "Easy": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ],
-                "Medium": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ],
-                "Hard": [ 
-                    { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
-                    {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
-                ]
-            }
-        }
+    "virus": {
+            "easy": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy" , "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ],
+            "Medium": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ],
+            "Hard": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy","AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ]
+    },
+    "Bacterias": {
+            "Easy": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ],
+            "Medium": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ],
+            "Hard": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ]
+    },
+    "Fungus": {
+            "Easy": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ],
+            "Medium": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ],
+            "Hard": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","yyyy"]}
+            ]
     }
 }
