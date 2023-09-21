@@ -1,34 +1,43 @@
 {
     "virus": {
             "easy": [ 
-                { "Question" : "xxxx" , "CorrectAnswer": "yyyy" , "AllAnswer":["x","y","z","fourth"]}, 
-                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
+                {"Question" : "viruseasy1" , "CorrectAnswer": "viruseasy1certa" , "AllAnswer":["x","viruseasy1certa","z","yyyy"]}, 
+                {"Question" : "viruseasy2" , "CorrectAnswer": "viruseasy2certa", "AllAnswer":["viruseasy2certa","y","y","fourth"]},
+                {"Question" : "viruseasy3" , "CorrectAnswer": "viruseasy3certa", "AllAnswer":["yyyy","y","viruseasy3certa","fourth"]},
+                {"Question" : "viruseasy4" , "CorrectAnswer": "viruseasy4certa", "AllAnswer":["yyyy","y","k","viruseasy4certa"]},
+                {"Question" : "viruseasy5" , "CorrectAnswer": "viruseasy5certa", "AllAnswer":["yyyy","y","viruseasy5certa","fourth"]}
+            ],
+            "medium": [ 
+                {"Question" : "virusmedium1" , "CorrectAnswer": "virusmedium1certa" , "AllAnswer":["x","virusmedium1certa","z","yyyy"]}, 
+                {"Question" : "virusmedium2" , "CorrectAnswer": "virusmedium2certa", "AllAnswer":["yyyy","y","virusmedium2certa","fourth"]},
+                {"Question" : "virusmedium3" , "CorrectAnswer": "virusmedium3certa", "AllAnswer":["yyyy","y","virusmedium3certa","fourth"]},
+                {"Question" : "virusmedium4" , "CorrectAnswer": "virusmedium4certa", "AllAnswer":["yyyy","y","virusmedium4certa","fourth"]},
+                {"Question" : "virusmedium5" , "CorrectAnswer": "virusmedium5certa", "AllAnswer":["yyyy","y","virusmedium5certa","fourth"]}
+            ],
+            "hard": [ 
+                {"Question" : "virushard1" , "CorrectAnswer": "virushard1certa" , "AllAnswer":["x","virushard1certa","z","yyyy"]}, 
+                {"Question" : "virushard2" , "CorrectAnswer": "virushard2certa", "AllAnswer":["yyyy","y","virushard2certa","fourth"]},
+                {"Question" : "virushard3" , "CorrectAnswer": "virushard3certa", "AllAnswer":["yyyy","y","virushard3certa","fourth"]},
+                {"Question" : "virushard4" , "CorrectAnswer": "virushard4certa", "AllAnswer":["yyyy","y","virushard4certa","fourth"]},
+                {"Question" : "virushard5" , "CorrectAnswer": "virushard5certa", "AllAnswer":["yyyy","y","virushard5certa","fourth"]}
+            ]
+    },
+    "bacterias": {
+            "easy": [ 
+                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","yyyy","z","fourth"]}, 
+                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["yyyy","y","z","fourth"]}
             ],
             "medium": [ 
                 { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
                 {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
             ],
             "hard": [ 
-                { "Question" : "xxxx" , "CorrectAnswer": "yyyy","AllAnswer":["x","y","z","fourth"]}, 
-                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
-            ]
-    },
-    "Bacterias": {
-            "Easy": [ 
-                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
-                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
-            ],
-            "medium": [ 
-                { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
-                {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
-            ],
-            "hard": [ 
                 { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
                 {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
             ]
     },
-    "Fungus": {
-            "Easy": [ 
+    "fungus": {
+            "easy": [ 
                 { "Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}, 
                 {"Question" : "xxxx" , "CorrectAnswer": "yyyy", "AllAnswer":["x","y","z","fourth"]}
             ],
