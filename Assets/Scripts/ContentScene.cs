@@ -12,11 +12,10 @@ public class ContentScene : MonoBehaviour
 
     public MenuButtons menuButtons;
 
-    private string contentType = "";
-    private string difficultyType = "";
+    private static string contentType;
+    private static string difficultyType;
     public bool contentSelected = false;
     
-
     public void ChangeAllText(){
         textTitleChange.text = "Escolha a dificuldade:";
         textFirstButtonChange.text = "Fácil";
@@ -32,38 +31,47 @@ public class ContentScene : MonoBehaviour
         return contentType;
     }
 
+    public void setContentType(string type){
+        contentType = type;
+    }
+
+    public void setDifficultyType(string type){
+        difficultyType = type;
+    }
+
     public void FirstButtonSelected(){
         if (contentSelected == false){
             contentType = "virus";
-            Debug.Log("You chose virus");
             contentSelected = true;
+            setContentType("virus");
         } else {
             difficultyType = "easy";
-            Debug.Log("You chose easy");
             menuButtons.GameNavigation();
+            setDifficultyType("easy");
         }
     }
 
     public void SecondButtonSelected(){
         if (contentSelected == false){
             contentType = "bacterias";
-            Debug.Log("You chose bacterias");
             contentSelected = true;
+            setContentType("bacterias");
         } else {
             difficultyType = "medium";
-            Debug.Log("You chose medium");
+            menuButtons.GameNavigation();
+            setDifficultyType("medium");
         }
     }
 
     public void ThirdButtonSelected(){
         if (contentSelected == false) {
             contentType = "fungus";
-            Debug.Log("You chose fungus");
             contentSelected = true;
+            setContentType("fungus");
         } else {
             difficultyType = "hard";
-            Debug.Log("You chose hard");
+            menuButtons.GameNavigation();
+            setDifficultyType("hard");
         }
     }
-
 }
