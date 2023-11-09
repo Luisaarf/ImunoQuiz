@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 63251634}
+      - m_Target: {fileID: 1965268535}
         m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -268,9 +268,7 @@ GameObject:
   - component: {fileID: 63251632}
   - component: {fileID: 63251631}
   - component: {fileID: 63251630}
-  - component: {fileID: 63251634}
   - component: {fileID: 63251635}
-  - component: {fileID: 63251633}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -328,49 +326,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &63251633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63251629}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b35d42d626e1644bb9cdc7592f63b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textJSON: {fileID: 4900000, guid: 65f9ade394b4e80429b3b21b8ab102ca, type: 3}
-  theGameData:
-    virus:
-      easy: []
-      medium: []
-      hard: []
-    bacterias:
-      easy: []
-      medium: []
-      hard: []
-    fungus:
-      easy: []
-      medium: []
-      hard: []
---- !u!114 &63251634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63251629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33085229cde30684d9d13a583aa30fd1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameSceneToLoad: CustomQuiz
-  volumeIcon: {fileID: 21300000, guid: 6d954c0d476a1584081aa0cc73ca829d, type: 3}
-  muteIcon: {fileID: 21300000, guid: 70088d5e15afaff438f9b696f5e0fb54, type: 3}
-  volumeButton: {fileID: 1312005467}
-  creditsPanel: {fileID: 2132493345}
 --- !u!114 &63251635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,7 +561,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 63251634}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
         m_MethodName: CreditsVisibility
         m_Mode: 1
@@ -1616,7 +1571,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1225546324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 352.4166, y: 236.79901, z: -1.7469958}
+  m_LocalPosition: {x: 950, y: 539, z: -1.7469958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1707,7 +1662,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 63251634}
+      - m_Target: {fileID: 1965268535}
         m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
         m_MethodName: GameNavigation
         m_Mode: 1
@@ -1719,7 +1674,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1965268534}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
@@ -2121,7 +2076,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 63251634}
+      - m_Target: {fileID: 1965268535}
         m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
         m_MethodName: CreditsVisibility
         m_Mode: 1
@@ -2306,7 +2261,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.829956}
   m_SizeDelta: {x: -2, y: -15}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1931377181
+--- !u!1 &1965268534
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2314,29 +2269,60 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1931377182}
+  - component: {fileID: 1965268536}
+  - component: {fileID: 1965268535}
+  - component: {fileID: 1965268537}
   m_Layer: 0
-  m_Name: JSON Reader
+  m_Name: MenuButtons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1931377182
+--- !u!114 &1965268535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965268534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33085229cde30684d9d13a583aa30fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameSceneToLoad: CustomQuiz
+  volumeIcon: {fileID: 21300000, guid: 6d954c0d476a1584081aa0cc73ca829d, type: 3}
+  muteIcon: {fileID: 21300000, guid: 70088d5e15afaff438f9b696f5e0fb54, type: 3}
+  volumeButton: {fileID: 1312005467}
+  creditsPanel: {fileID: 2132493345}
+--- !u!4 &1965268536
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1931377181}
+  m_GameObject: {fileID: 1965268534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 945.12994, y: 530.6959, z: -8.294673}
+  m_LocalPosition: {x: 822.2045, y: 552.51324, z: -7.3623176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1965268537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965268534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff30363d8e499a749bf7baa79cd5b6dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2080923699
 GameObject:
   m_ObjectHideFlags: 0

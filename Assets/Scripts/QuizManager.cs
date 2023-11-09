@@ -8,6 +8,7 @@ public class QuizManager : MonoBehaviour
 {
     [SerializeField] ContentScene contentScene;
     [SerializeField] DataController dataController;
+    [SerializeField] endGameScreen endGameScreen;
 
     string[] theQuestionData = new string[6];
 
@@ -22,18 +23,22 @@ public class QuizManager : MonoBehaviour
     [SerializeField] resIncorrect resIncorrect;
     [SerializeField] ScoreManager scoreManager;
 
+    [SerializeField] MenuButtons menuButtons;
+
     [SerializeField] QuizButtons quizButtons;
     [SerializeField] private Button buttonNext;
 
+    //[SerializeField] private GameObject gamePage;
+    //[SerializeField] private GameObject endGamePage;
 
     public string contentQuiz = "";
     public string difficultyQuiz = "";
 
+    [SerializeField] private static int gameRoundCounter;
     public string CorrectAnswer = "";
 
-    // Start is called before the first frame update
-
     void generateQuestion(){
+        gameRoundCounter++;
         contentQuiz = contentScene.getContentType();
         difficultyQuiz = contentScene.getDifficultyType();
         theQuestionData = dataController.sortQuestion(contentQuiz, difficultyQuiz);
@@ -45,11 +50,22 @@ public class QuizManager : MonoBehaviour
         textFourthAnswer.text = theQuestionData[5];
     }
 
+    public void showCorrectAnswer(){
+        if (textFirstAnswer.text == CorrectAnswer){
+            resCorrect.MoveCorrectResponse(textFirstAnswer.transform.parent.gameObject);
+        } else if (textSecondAnswer.text == CorrectAnswer){
+            resCorrect.MoveCorrectResponse(textSecondAnswer.transform.parent.gameObject);
+        } else if (textThirdAnswer.text == CorrectAnswer){
+            resCorrect.MoveCorrectResponse(textThirdAnswer.transform.parent.gameObject);
+        } else if (textFourthAnswer.text == CorrectAnswer){
+            resCorrect.MoveCorrectResponse(textFourthAnswer.transform.parent.gameObject);
+        }
+    }
+
     public void verifyAnswerFirstButton(){
         quizButtons.UnactiveAll();
         buttonNext.gameObject.SetActive(true);
         if (textFirstAnswer.text == CorrectAnswer){
-            resCorrect.MoveCorrectResponse(textFirstAnswer.transform.parent.gameObject);
             scoreManager.addScore();
             
         } else {
@@ -60,7 +76,6 @@ public class QuizManager : MonoBehaviour
         quizButtons.UnactiveAll();
         buttonNext.gameObject.SetActive(true);
         if (textSecondAnswer.text == CorrectAnswer){
-            resCorrect.MoveCorrectResponse(textSecondAnswer.transform.parent.gameObject);
             scoreManager.addScore();
         } else {
             resIncorrect.MoveIncorrectResponse(textSecondAnswer.transform.parent.gameObject);
@@ -71,7 +86,6 @@ public class QuizManager : MonoBehaviour
         quizButtons.UnactiveAll();
         buttonNext.gameObject.SetActive(true);
         if (textThirdAnswer.text == CorrectAnswer){
-           resCorrect.MoveCorrectResponse(textThirdAnswer.transform.parent.gameObject);
            scoreManager.addScore();
         } else {
             resIncorrect.MoveIncorrectResponse(textThirdAnswer.transform.parent.gameObject);
@@ -82,7 +96,6 @@ public class QuizManager : MonoBehaviour
         quizButtons.UnactiveAll();
         buttonNext.gameObject.SetActive(true);
         if (textFourthAnswer.text == CorrectAnswer){
-            resCorrect.MoveCorrectResponse(textFourthAnswer.transform.parent.gameObject);
             scoreManager.addScore();
         } else {
             resIncorrect.MoveIncorrectResponse(textFourthAnswer.transform.parent.gameObject);
@@ -94,13 +107,32 @@ public class QuizManager : MonoBehaviour
         buttonNext.gameObject.SetActive(false);
         resCorrect.setInvisible();
         resIncorrect.setInvisible();
-        generateQuestion();
+        if (gameRoundCounter == 5 ){
+            // gamePage.SetActive(false);
+            // endGamePage.SetActive(true);
+            // endGameScreen.setScore(gameRoundCounter);
+            scoreManager.updateGameRoundCounter(gameRoundCounter);
+            menuButtons.GameNavigation();
+        } else {
+            generateQuestion();
+        }
     }
 
-    void Start()
+    public int getGameRoundCounter(){
+        return gameRoundCounter;
+    }
+
+    public void GameVisibility(){
+       // gamePage.SetActive(true);
+    }
+    public void Start()
     {
+        GameVisibility();
         buttonNext.gameObject.SetActive(false);
+        //endGamePage.SetActive(false);
+        gameRoundCounter = 0;
         generateQuestion();
     }
+    
 
 }

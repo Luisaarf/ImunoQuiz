@@ -8,7 +8,7 @@ public class ContentScene : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textTitleChange;
     [SerializeField] private TextMeshProUGUI textFirstButtonChange;
     [SerializeField] private TextMeshProUGUI textSecondButtonChange;
-    [SerializeField] private TextMeshProUGUI textThirdButtonChange;
+    [SerializeField] private TextMeshProUGUI textThirdButtonChange;	
 
     public MenuButtons menuButtons;
 

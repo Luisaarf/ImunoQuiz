@@ -83,7 +83,6 @@ public class DataController : MonoBehaviour
     public string[] sortQuestion(string thechoice, string choice){ 
         theGameData = JsonUtility.FromJson<GameData>(textJSON.text);
         randNum = generateIndex.generateIndexNumbers();
-        Debug.Log(randNum + " randNum");
         if(thechoice == "virus"){
             if(choice == "easy"){
                 thisQuestionData[0] = theGameData.virus.easy[randNum].Question;
@@ -177,8 +176,4 @@ public class DataController : MonoBehaviour
         {return thisQuestionData;}
     }
 
-    void Start()
-    {
-        
-    }
 }

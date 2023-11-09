@@ -5,10 +5,11 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    [SerializeField] private int numScore ;
+    [SerializeField] private static int numScore ;
 
     [SerializeField] private TextMeshProUGUI textScore;
 
+    public static int gameRoundCounter;
 
     public void addScore(){
         numScore++;
@@ -22,15 +23,25 @@ public class ScoreManager : MonoBehaviour
         textScore.text = numScore.ToString();
     }
 
+    public int getScore(){
+        return numScore;
+    }
     public void resetScore(){
         numScore = 0;
+    }
+
+    public int  getGameRoundCounter(){
+        return gameRoundCounter;
+    }
+
+    public void updateGameRoundCounter(int gameRoundCounterParam){
+        gameRoundCounter = gameRoundCounterParam;
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        numScore = 0;
     }
 
 }
