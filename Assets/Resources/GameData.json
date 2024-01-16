@@ -22,7 +22,7 @@
                 { "Question" : "VH|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ]
     },
-    "Bacterias": {
+    "bacterias": {
             "easy": [ 
                 { "Question" : "BE|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "BE|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
@@ -45,7 +45,7 @@
                 { "Question" : "BH|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ]
     },
-    "Fungus": {
+    "fungus": {
             "easy": [ 
                 { "Question" : "FE|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "FE|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
