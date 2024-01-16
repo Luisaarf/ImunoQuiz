@@ -16,6 +16,7 @@ public class MenuButtons : MonoBehaviour
 
     void Start()
     {
+        creditsPanel.SetActive(false);
         //defines sprite for volume button when the menu appears
         volumeButton.GetComponent<Image>().sprite = volumeIcon;
     }
