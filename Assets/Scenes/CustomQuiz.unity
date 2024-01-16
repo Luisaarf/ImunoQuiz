@@ -1018,7 +1018,6 @@ MonoBehaviour:
   textFirstButtonChange: {fileID: 1609325025}
   textSecondButtonChange: {fileID: 2012394721}
   textThirdButtonChange: {fileID: 100791381}
-  gamePage: {fileID: 0}
   menuButtons: {fileID: 475989601}
   contentSelected: 0
 --- !u!4 &1600227900
@@ -1189,7 +1188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1644721083
 RectTransform:
   m_ObjectHideFlags: 0

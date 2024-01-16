@@ -655,11 +655,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 2040725056}
-  quizManager: {fileID: 922189432}
   textScore: {fileID: 726883933}
+  textScorePoints: {fileID: 0}
   restartButton: {fileID: 1111485638}
   exitButton: {fileID: 1968886915}
   score: 0
+  roundCounter: 0
 --- !u!1 &577974864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,7 +1092,6 @@ MonoBehaviour:
   buttonNext: {fileID: 494528189}
   contentQuiz: 
   difficultyQuiz: 
-  gameRoundCounter: 0
   CorrectAnswer: 
 --- !u!114 &922189434
 MonoBehaviour:
@@ -3563,7 +3563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2061270627
 RectTransform:
   m_ObjectHideFlags: 0
