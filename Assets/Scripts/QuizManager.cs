@@ -41,6 +41,8 @@ public class QuizManager : MonoBehaviour
         gameRoundCounter++;
         contentQuiz = contentScene.getContentType();
         difficultyQuiz = contentScene.getDifficultyType();
+        Debug.Log("contentquiz " + contentQuiz);
+        Debug.Log("difficultyquiz " + difficultyQuiz);
         theQuestionData = dataController.sortQuestion(contentQuiz, difficultyQuiz);
         textQuestion.text = theQuestionData[0];
         CorrectAnswer = theQuestionData[1];

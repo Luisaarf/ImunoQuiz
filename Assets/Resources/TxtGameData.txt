@@ -7,14 +7,14 @@
                 { "Question" : "VE|Question4" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "VE|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ],
-            "Medium": [ 
+            "medium": [ 
                 { "Question" : "VM|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "VM|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "VM|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "VM|Question4" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "VM|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ],
-            "Hard": [ 
+            "hard": [ 
                 { "Question" : "VH|Question1" , "CorrectAnswer": "ACorreta","AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "VH|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "VH|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
@@ -23,21 +23,21 @@
             ]
     },
     "Bacterias": {
-            "Easy": [ 
+            "easy": [ 
                 { "Question" : "BE|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "BE|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "BE|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "BE|Question4" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "BE|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ],
-            "Medium": [ 
+            "medium": [ 
                 { "Question" : "BM|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "BM|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "BM|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "BM|Question4" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "BM|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ],
-            "Hard": [ 
+            "hard": [ 
                 { "Question" : "BH|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "BH|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "BH|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
@@ -46,21 +46,21 @@
             ]
     },
     "Fungus": {
-            "Easy": [ 
+            "easy": [ 
                 { "Question" : "FE|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "FE|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "FE|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "FE|Question4" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "FE|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ],
-            "Medium": [ 
+            "medium": [ 
                 { "Question" : "FM|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "FM|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "FM|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "FM|Question4" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "FM|Question5" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}
             ],
-            "Hard": [ 
+            "hard": [ 
                 { "Question" : "FH|Question1" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 
                 { "Question" : "FH|Question2" , "CorrectAnswer": "ACorreta", "AllAnswer":["Option1","Option2","Option3","ACorreta"]},
                 { "Question" : "FH|Question3" , "CorrectAnswer": "ACorreta" , "AllAnswer":["Option1","Option2","Option3","ACorreta"]}, 

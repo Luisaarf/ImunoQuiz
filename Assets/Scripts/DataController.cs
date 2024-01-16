@@ -83,7 +83,10 @@ public class DataController : MonoBehaviour
     public string[] sortQuestion(string thechoice, string choice){ 
         theGameData = JsonUtility.FromJson<GameData>(textJSON.text);
         randNum = generateIndex.generateIndexNumbers();
+        Debug.Log("contentquiz " + thechoice);
+        Debug.Log("difficultyquiz " + choice);
         if(thechoice == "virus"){
+            Debug.Log("passedvirus");
             if(choice == "easy"){
                 thisQuestionData[0] = theGameData.virus.easy[randNum].Question;
                 thisQuestionData[1] = theGameData.virus.easy[randNum].CorrectAnswer;
@@ -94,6 +97,7 @@ public class DataController : MonoBehaviour
                 return thisQuestionData;
             }
             else if(choice == "medium"){
+                Debug.Log("passedmedium");
                 thisQuestionData[0] = theGameData.virus.medium[randNum].Question;
                 thisQuestionData[1] = theGameData.virus.medium[randNum].CorrectAnswer;
                 thisQuestionData[2] = theGameData.virus.medium[randNum].AllAnswer[0];
